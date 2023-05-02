@@ -1,7 +1,7 @@
 BASE_PATH="/content/"
 
 cd -- "$BASE_PATH"
-git clone https://github.com/CS-598-DL4H-Spring-2023-Group-18/Verifying-Keyclass.git
+git clone https://github.com/AtharvChandratre/Verifying-Keyclass-For-Colab.git
 cd Verifying-Keyclass
 mv One-Versus-Not KeyClass
 pip install snorkel sentence-transformers pyhealth transformers
