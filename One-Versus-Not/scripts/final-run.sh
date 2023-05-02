@@ -2,7 +2,7 @@ BASE_PATH="/content/"
 
 cd -- "$BASE_PATH"
 git clone https://github.com/AtharvChandratre/Verifying-Keyclass-For-Colab.git
-cd Verifying-Keyclass
+cd Verifying-Keyclass-For-Colab
 mv One-Versus-Not KeyClass
 pip install snorkel sentence-transformers pyhealth transformers
 cd KeyClass/scripts/
@@ -19,7 +19,7 @@ jar xvf mimic.zip && rm mimic.zip
 mv small-mimic mimic
 
 cd -- "$BASE_PATH"
-cd Verifying-Keyclass/KeyClass/scripts/
+cd Verifying-Keyclass-For-Colab/KeyClass/scripts/
 python config_creator.py
 python run_all_configs.py
 #CONFIG_LOCATION="${BASE_PATH}KeyClass/config_files/config_mimic.yaml"
