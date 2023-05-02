@@ -1,6 +1,6 @@
 import subprocess
 
-base_filename = "/content/Verifying-Keyclass/KeyClass/scripts/config_mimic_"
+base_filename = "/content/Verifying-Keyclass-For-Colab/KeyClass/scripts/config_mimic_"
 base_file_extension = '.yaml'
 
 for i in range(0,19):
