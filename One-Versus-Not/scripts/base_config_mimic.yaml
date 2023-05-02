@@ -15,7 +15,7 @@ h_sizes:
 - 1
 label_model: data_programming
 label_model_lr: 0.01
-label_model_n_epochs: 100
+label_model_n_epochs: 2
 max_num: 500
 min_df: 0.001
 model_path: ../models/mimic/
